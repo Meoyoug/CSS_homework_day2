@@ -1,0 +1,119 @@
+html{
+    background-color: rgb(128, 228, 251);
+}
+*{
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+body{
+    height: 1000px;
+    width: 600px;
+    margin: 0 auto;
+}
+.hat{
+    left: 10px;
+    transform: rotate(10deg);
+    top: 30px;
+    z-index: 2;
+}
+.hat1{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(171, 130, 18);
+}
+.hat2{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(171, 130, 18);
+}
+.head{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: white;
+}
+.body{
+    bottom: 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    background-color: white;
+    z-index: 10;
+
+}.leg{
+    bottom: 180px;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    background-color: white;
+}
+.eyes{
+    height: 100px;
+    width: 100px;
+}
+.eyes > div{
+    top : 80px;
+    height: 3px;
+    width: 30px;
+    background-color: rgb(189, 124, 2);
+    z-index: 100;
+}
+.eye1{
+    float: left;
+}
+.eye2{
+    float: right;
+}
+.carrot{
+    background-color: orange;
+    height: 30px;
+    width: 50px;
+    border-radius: 50px 10px 10px 20px;
+    right: 20px;
+}
+.mouse{
+    top : 5px;
+    height: 30px;
+    width: 60px;
+    border-radius: 30px;
+    border: 3px solid rgb(189, 124, 2);
+    z-index : 12;
+}
+.left_arm{
+    bottom: 250px;
+    right: 180px;
+    height: 10px;
+    width: 150px;
+    background-color: rgb(189, 124, 2);
+    transform: rotate(30deg);
+    z-index: 3;
+}
+.right_arm{
+    bottom: 250px;
+    left: 180px;
+    height: 10px;
+    width: 150px;
+    background-color: rgb(189, 124, 2);
+    transform: rotate(150deg);
+    z-index: 4;
+}
+.button > div{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(61, 243, 11);
+    border: 1px solid black;
+    z-index: 11;
+}
+.one{
+    bottom: 300px;
+}
+.two{
+    bottom: 260px;
+}
+.three{
+    bottom: 220px;
+}

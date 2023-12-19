@@ -1,0 +1,38 @@
+*{
+
+}
+body{
+    width: 1425px;
+    height: auto;
+}
+.headertop{
+    box-sizing: border-box;
+    height: 60px;
+    width: 1425px;
+    padding: 18px 0 18px 0;
+}
+#lg_logo{
+    height: 30px;
+    width: 112px;
+}
+.logo_bar{
+    box-sizing: border-box;
+    height: 24px;
+    width: 104px;
+    float: right;
+}
+.search > img{
+    height: 24px;
+    width: 24px;
+}
+.my_info > img{
+    height: 24px;
+    width: 24px;
+}
+.shopping_basket > img{
+    height: 24px;
+    width: 24px;
+}
+.intro_com{
+    float: right;
+}
